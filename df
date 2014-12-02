@@ -1,0 +1,188 @@
+[33mcommit 4053f5092fb6366ccbde91923486e0d28f2abf9c[m
+Author: Andrew Stelmach <andrew_stelmach@hotmail.com>
+Date:   Sun Nov 30 22:25:15 2014 +0100
+
+    fixed paperclip and migration issue
+
+[33mcommit 3d4ccb244a2da9b521fc64990293a5065be91fee[m
+Author: Andrew Stelmach <andrew_stelmach@hotmail.com>
+Date:   Sun Nov 30 21:24:48 2014 +0100
+
+    Added image upload with Paperclip
+
+[33mcommit 60f62e51d494bee52dc87fa2d872a18aa002963c[m
+Author: Andrew Stelmach <andrew_stelmach@hotmail.com>
+Date:   Sun Nov 30 17:24:50 2014 +0100
+
+    Added user authentication
+
+[33mcommit 4f301b54be8feb6687927c28b9b40cd00c3cacaa[m
+Author: Andrew Stelmach <andrew_stelmach@hotmail.com>
+Date:   Sat Nov 29 00:29:11 2014 +0100
+
+    added user to pin association
+
+[33mcommit 835a84c053ed263b680b0458c270c2bc2f037943[m
+Author: Andrew Stelmach <andrew_stelmach@hotmail.com>
+Date:   Thu Nov 27 18:41:04 2014 +0100
+
+    Styling changes for a couple of the pins pages
+
+[33mcommit 5e87b40e425562296ce10dff2f0a792ee822a1b0[m
+Author: Andrew Stelmach <andrew_stelmach@hotmail.com>
+Date:   Thu Nov 27 17:53:32 2014 +0100
+
+    deleted the unnecessary json files
+
+[33mcommit d607fdcb485188b875aa9bf3b143c8431701f640[m
+Author: Andrew Stelmach <andrew_stelmach@hotmail.com>
+Date:   Thu Nov 27 17:49:00 2014 +0100
+
+    cleaned up the pins_controller.rb file
+
+[33mcommit 29cf751edd479aab13fc89b8fae0d138c2aed31e[m
+Author: Andrew Stelmach <andrew_stelmach@hotmail.com>
+Date:   Thu Nov 27 01:03:28 2014 +0100
+
+    deleted scaffolds.css.scss
+
+[33mcommit 5e3c635d30187d373dec64d0e2c4e8bc416f3816[m
+Author: Andrew Stelmach <andrew_stelmach@hotmail.com>
+Date:   Thu Nov 27 00:38:40 2014 +0100
+
+    Generated pins scaffold and ran a successful migrate
+
+[33mcommit d8b21962d3e4040346c4fcc543325af45627aaa3[m
+Author: Andrew Stelmach <andrew_stelmach@hotmail.com>
+Date:   Thu Nov 27 00:29:41 2014 +0100
+
+    Deleted unnecessary Devise views and styled some of the remaining ones.
+
+[33mcommit 624a0acacbce69fcdcb81cd1d201c1143d87ba6f[m
+Author: Andrew Stelmach <andrew_stelmach@hotmail.com>
+Date:   Wed Nov 26 01:29:44 2014 +0100
+
+    deleted duplicate migration file: 20141125195328_devise_create_users.rb
+
+[33mcommit a01dd1ea6dae0a4a7312b8b8283b93d6e1d8e650[m
+Author: Andrew Stelmach <andrew_stelmach@hotmail.com>
+Date:   Wed Nov 26 01:05:25 2014 +0100
+
+    implemented devise for users
+
+[33mcommit 12462d668dd62943f3fb3eccb38921e686c33c5c[m
+Merge: 1440dab 270070d
+Author: Andrew Stelmach <andrew_stelmach@hotmail.com>
+Date:   Tue Nov 25 23:55:46 2014 +0100
+
+    Merge branch 'master' of github.com:Yorkshireman/pinteresting
+    
+    I've no idea why I had to do this merge, but git said I have to before I can 'git push'. I had done a hard reset to a previous commit and then done a 'rake db:drop', 'rake db:create', then 'rake db:migrate', which was finally successful (I'd been getting an error when trying to migrate).
+
+[33mcommit 1440dabd4cad92d0082ee0c9ed9d175dea613f29[m
+Author: Andrew Stelmach <andrew_stelmach@hotmail.com>
+Date:   Tue Nov 25 23:55:09 2014 +0100
+
+    after successful 'rake db:migrate'
+
+[33mcommit 270070ddb7d7a705f6cb7b0cda16e2f97b4356a5[m
+Author: Andrew Stelmach <andrew_stelmach@hotmail.com>
+Date:   Tue Nov 25 23:11:03 2014 +0100
+
+    removed pesky Gemfile conflicted copy.lock file
+
+[33mcommit 5d4b4cc58b6d29c1e367f6e587a3612f7b783b65[m
+Author: Andrew Stelmach <andrew_stelmach@hotmail.com>
+Date:   Tue Nov 25 20:54:48 2014 +0100
+
+    generated a Devise user
+
+[33mcommit c599ab3cbe344162d93e04fcff03d07c9b80847b[m
+Author: Andrew Stelmach <andrew_stelmach@hotmail.com>
+Date:   Tue Nov 25 20:34:43 2014 +0100
+
+    Installed Devise and added it to the app
+
+[33mcommit d2652ea4776aac295c0df3d21aed7de99f6404b8[m
+Author: Andrew Stelmach <andrew_stelmach@hotmail.com>
+Date:   Tue Nov 25 16:57:57 2014 +0100
+
+    added 'navbar' class to the navbar element and removed the top-margin tag from the jumbotron
+
+[33mcommit 225a55706b71161989c21740616f78724053677a[m
+Author: Andrew Stelmach <andrew_stelmach@hotmail.com>
+Date:   Tue Nov 25 16:53:50 2014 +0100
+
+    installed Devise gem, but still need to do the manual steps. 'git log' I think is still hanging
+
+[33mcommit 65bf4187df07bf4584b3b8970ce8af882bec578c[m
+Author: Andrew Stelmach <andrew_stelmach@hotmail.com>
+Date:   Tue Nov 25 15:06:22 2014 +0100
+
+    Changed Ruby version declaration in the Gemfile
+
+[33mcommit 252734602103a1f91d72f6e2f46a0f332eb6745c[m
+Author: Andrew Stelmach <andrew_stelmach@hotmail.com>
+Date:   Tue Nov 25 01:56:19 2014 +0100
+
+    Specified Ruby version in Gemfile.
+
+[33mcommit ffb2c6805c69d308c0b0f37131fa48174ba88ff1[m
+Author: Andrew Stelmach <andrew_stelmach@hotmail.com>
+Date:   Tue Nov 25 01:50:25 2014 +0100
+
+    Ran bundle install. All ready to push to Heroku.
+
+[33mcommit 1024ac794ca9d2e0107c72e0429fba48b4ca8557[m
+Author: Andrew Stelmach <andrew_stelmach@hotmail.com>
+Date:   Tue Nov 25 01:44:56 2014 +0100
+
+    Added pg and 12_factor gems for Heroku
+
+[33mcommit 651b1c30dec65d571df8fd927c3520fdc398bc7d[m
+Author: Andrew Stelmach <andrew_stelmach@hotmail.com>
+Date:   Tue Nov 25 01:37:18 2014 +0100
+
+    After a bootstrap customisations and just before Heroku push
+
+[33mcommit 070adf6ce01b77717edbe7727f83f0531cab9709[m
+Author: Andrew Stelmach <andrew_stelmach@hotmail.com>
+Date:   Mon Nov 24 01:26:50 2014 +0000
+
+    Commit made after correcting all the fuck-ups ('ubuntu conflicting copy' problems)
+
+[33mcommit 61a24485b542f87dc0ae59b8f6c2e6f9f827ce71[m
+Author: Andrew Stelmach <andrew_stelmach@hotmail.com>
+Date:   Mon Nov 24 00:43:20 2014 +0000
+
+    Added Javascript, some customisation.
+
+[33mcommit d1e407f6f7a6686efcedc3405d7ed88b9aff8135[m
+Author: Andrew Stelmach <andrew_stelmach@hotmail.com>
+Date:   Sun Nov 23 18:39:07 2014 +0000
+
+    Added Bootstrap
+
+[33mcommit 803c0995568833cd4972d144a638a4e17a4c1d6e[m
+Author: Andrew Stelmach <andrew_stelmach@hotmail.com>
+Date:   Sun Nov 23 17:49:40 2014 +0000
+
+    Created Home and About pages, plus a very basic navigation.
+
+[33mcommit 7cd38f08c0244dadeaa150add5388b734b5ef11f[m
+Author: Andrew Stelmach <andrew_stelmach@hotmail.com>
+Date:   Sat Nov 22 10:12:48 2014 +0000
+
+    Changed homepage in root.rb file
+
+[33mcommit 652b9b965fec000d25794f1c4219cfa7d081e18c[m
+Author: Andrew Stelmach <andrew_stelmach@hotmail.com>
+Date:   Sat Nov 22 09:52:46 2014 +0000
+
+    Changed the Readme.md
+
+[33mcommit 121f9a23371275333c45dccf1c4c01a9fa509719[m
+Author: Andrew Stelmach <andrew_stelmach@hotmail.com>
+Date:   Sat Nov 22 00:37:57 2014 +0000
+
+    initial commit
