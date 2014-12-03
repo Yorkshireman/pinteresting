@@ -27,7 +27,8 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 gem 'bootstrap-sass'
 gem 'devise', '~> 3.4.1'
-gem 'paperclip', github: 'thoughtbot/paperclip'
+# gem 'paperclip', github: 'thoughtbot/paperclip'
+gem "paperclip", "~> 4.2"
 gem 'aws-sdk', '~> 2.0.11.pre'
 gem 'masonry-rails', '~> 0.2.0'
 
