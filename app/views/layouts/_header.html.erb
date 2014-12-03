@@ -24,7 +24,11 @@
             <% end %>
           </li>
           <li><%= link_to "Account Settings", edit_user_registration_path %></li>
-          <li><%= link_to "Log out", destroy_user_session_path, method: :delete %></li>
+          <li>
+            <%= link_to destroy_user_session_path, method: :delete do %>
+              Log out <span class="glyphicon glyphicon-log-out"></span>
+            <%end%>
+          </li>
         <% else %>
           <li><%= link_to "Sign in", new_user_session_path %></li>
         <% end %>
