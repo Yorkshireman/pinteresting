@@ -3,12 +3,12 @@
 <div class="row">
   <div class="col-md">
     <div class="panel panel-default">
-      <div class="panel-heading center">
+      <div class="panel-heading">
 
         <% if @pin.image.exists?(:large) %>
         <%= image_tag @pin.image.url(:large), class: "img-responsive"%>
         <% else %>
-        <%= image_tag @pin.image.url(:medium) %>
+        <%= image_tag @pin.image.url(:medium), class: "img-responsive" %>
         <% end %>
   
       </div>
