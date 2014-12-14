@@ -20,21 +20,29 @@
 }
 
 .pin-description {
-	color: #444;
-	// font-weight: bold;
+	font-family: 'News Cycle', sans-serif;
+	font-size: 1.1em;
+	color: #2c3e50;
+	font-weight: bold;
 }
 
 .user {
+	font-family: 'Comfortaa', cursive;
 	color: #858585;
 	font-size: 0.9em;
 }
 
-.glyphicon-user {
-	margin-right: 0.25em;
+.glyphicon-user, .glyphicon-pencil {
+	margin-right: 0.20em;
+}
+
+#pins .glyphicon-user {
+	margin-right: 0.35em;
 }
 
 .pin-actions {
-	font-size: 0.9em;
+	font-family: 'Comfortaa', cursive;
+	font-size: 0.85em;
 	margin-top: 8px;
 	a {
 		color: #858585;
