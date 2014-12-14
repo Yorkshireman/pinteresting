@@ -10,8 +10,36 @@
 .box {
   margin: 5px;
   width: 214px;
+  border-radius: 6px;
+
 }
 
 .box img {
   width: 100%;
+  border-radius: 6px 6px 0 0;
+}
+
+.pin-description {
+	color: #444;
+	// font-weight: bold;
+}
+
+.user {
+	color: #858585;
+	font-size: 0.9em;
+}
+
+.glyphicon-user {
+	margin-right: 0.25em;
+}
+
+.pin-actions {
+	font-size: 0.9em;
+	a {
+		color: #858585;
+	}
+}
+
+.panel-body {
+	padding: 10px 13px;
 }
