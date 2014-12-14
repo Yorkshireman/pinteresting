@@ -1,6 +1,6 @@
-<%= link_to 'Back', pins_path %>
+<%= link_to 'Back', pins_path, class: "clearfix" %>
 
-    <div class="panel panel-default">
+    <div class="panel panel-default show-view-container">
       <div class="panel-heading">
 
         <% if @pin.image.exists?(:large) %>
