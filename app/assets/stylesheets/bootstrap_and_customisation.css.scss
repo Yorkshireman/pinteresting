@@ -1,23 +1,35 @@
 @import url(http://fonts.googleapis.com/css?family=News+Cycle:400,700|Lobster|Comfortaa:400,700|Varela+Round);
 
-$body-bg:					#ecf0f1;
+$body-bg:					#f7f7f7;
 
-$navbar-default-bg:			#2c3e50;
-$navbar-default-link-color:	white;
-$navbar-default-link-hover-color: #ddd;
+$navbar-default-bg:			#fcfcfc;
+$navbar-default-link-color:	#7f8c8d;
+$navbar-default-link-hover-color:	#3498db;
 
-$jumbotron-bg:				#e74c3c;
+$navbar-default-brand-color: #3498db;
+
+$jumbotron-bg:				#2980b9;
 $jumbotron-color:			white;
 
-$btn-primary-bg:			#2ecc71;
+$btn-default-bg:			#3498db;
+$btn-default-color:			white;
+$btn-default-border:		#2980b9;
+$btn-primary-bg:			white;
+$btn-primary-color:			#2980b9;
 
 $font-family-base:			'Comfortaa', cursive;
+
+$gray-dark:					#525252;
+$gray-light:				#858585;
 
 @import "bootstrap-sprockets";
 @import 'bootstrap';
 
 .jumbotron {
 	margin-top: 1.5em;
+	#jumbotron-title {
+		font-family: 'Lobster', cursive;
+	}
 }
 
 .center {
