@@ -20,8 +20,12 @@
 		<%= yield %>
 		
 		<% unless user_signed_in? %>
-			<style>#pins {-webkit-filter: blur(8px);
-							filter: blur(8px);}</style>
+			<style>#pins {	-webkit-filter: blur(8px);
+							filter: blur(8px);
+							-moz-filter: blur(8px);
+							-o-filter: blur(8px);
+							-ms-filter: blur(8px);
+							}</style>
 		<% end %>
 	</div>
 </body>

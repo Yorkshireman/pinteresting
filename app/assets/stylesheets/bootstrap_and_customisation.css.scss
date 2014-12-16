@@ -50,10 +50,10 @@ $gray-light:				#858585;
 	}
 	position: absolute;
 	
-	top: 6%;
+	top: 10%;
 	left: 8%;
 	right: 8%;
-	height: 85%;
+	// height: 85%; was doing strange things on landscape mode on mobile
 
 	z-index: 1;
 	opacity: 0.8;
