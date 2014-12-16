@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+	
 	<% if user_signed_in? %>
 		<%= render "layouts/header" %>
 	<% end %>
@@ -17,6 +18,10 @@
 			<%= content_tag(:div, msg, class: "alert alert-info") %>
 		<% end %>
 		<%= yield %>
+		
+		<% unless user_signed_in? %>
+			<style>#pins {-webkit-filter: blur(8px);}</style>
+		<% end %>
 	</div>
 </body>
 </html>
