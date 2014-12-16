@@ -25,13 +25,6 @@ $gray-light:				#858585;
 @import "bootstrap-sprockets";
 @import 'bootstrap';
 
-.jumbotron {
-	margin-top: 1.5em;
-	#jumbotron-title {
-		font-family: 'Lobster', cursive;
-	}
-}
-
 .center {
 	text-align: center;
 }
@@ -49,4 +42,11 @@ $gray-light:				#858585;
 .nav {
 	font-family: 'Comfortaa', cursive;
 	font-size: 0.95em;
+}
+
+.jumbotron {
+	margin-top: 1.5em;
+	#jumbotron-title {
+		font-family: 'Lobster', cursive;
+	}
 }
