@@ -48,12 +48,14 @@ $gray-light:				#858585;
 	#jumbotron-title {
 		font-family: 'Lobster', cursive;
 	}
-	position: absolute;
+	position: fixed;
 	
 	top: 10%;
-	left: 8%;
-	right: 8%;
+	left: 10%;
+	right: 10%;
 	// height: 85%; was doing strange things on landscape mode on mobile
+
+	padding-bottom: 4em;
 
 	z-index: 1;
 	opacity: 0.8;
