@@ -66,3 +66,24 @@ $gray-light:				#858585;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
+
+/*back to pins button styling*/
+.to_pins_button {
+	font-weight: bold;
+	font-size: 1.1em;
+	padding: 5px 14px 7px 6px;
+}
+
+/*Chevron-left styling within the button*/
+.glyphicon-chevron-left:before {
+	margin-right: 0.4em;
+	position: relative;
+	top: 1.3px;
+	font-weight: normal;
+	
+}
+
+.show-view-container {
+	margin-top: 0.5em;
+	margin-bottom: 0.7em;
+}
