@@ -53,8 +53,7 @@ $gray-light:				#858585;
 	top: 10%;
 	left: 10%;
 	right: 10%;
-	// height: 85%; was doing strange things on landscape mode on mobile
-	bottom: 12.5%; //to ensure box fits into a mobile browser window - this value takes precedence over the jumbotron's bottom padding.
+	//height: 85%; //was doing strange things on landscape mode on mobile
 
 	padding-bottom: 4em;
 
