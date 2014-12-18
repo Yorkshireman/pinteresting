@@ -25,6 +25,8 @@ $gray-light:				#858585;
 @import "bootstrap-sprockets";
 @import 'bootstrap';
 
+
+/* Classes to add styling */
 .center {
 	text-align: center;
 }
@@ -67,12 +69,23 @@ $gray-light:				#858585;
 	text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
 
-/*back to pins button styling*/
+/* Button styling*/
 .to_pins_button {
 	font-weight: bold;
 	font-size: 1.1em;
 	padding: 5px 14px 7px 6px;
 }
+
+.to_pins_button_smaller {
+	font-weight: normal;
+	font-size: 0.9em;
+	padding: 5px 14px 7px 6px;
+}
+
+.create_pin_button {
+	font-weight: bold;
+}
+
 
 /*Chevron-left styling within the button*/
 .glyphicon-chevron-left:before {
@@ -80,10 +93,30 @@ $gray-light:				#858585;
 	position: relative;
 	top: 1.3px;
 	font-weight: normal;
-	
 }
 
 .show-view-container {
+	display: inline-block;
 	margin-top: 0.5em;
 	margin-bottom: 0.7em;
+}
+
+.container-bottom-padding {
+	padding-bottom: 1.25em;
+}
+
+
+
+
+
+/************************************************************
+	ABOUT PAGE
+***********************************************************/
+
+.about-image {
+	max-height: 22em;
+}
+
+.about-text {
+	max-width: 600px;
 }

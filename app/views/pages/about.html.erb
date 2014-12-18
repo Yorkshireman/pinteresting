@@ -1,2 +1,23 @@
-<h1>About Us</h1>
-<p>We are working on our motherfucking One Month fucking Rails fucking Pinteresting app, like a boss.</p>
+<div class="media">
+  <div class="media-left">
+    <%= image_tag "profile-pic.jpg", class:"about-image img-responsive img-circle" %>
+  </div>
+  <div class="media-body about-text panel panel-default">
+    <div class="panel-heading">
+	    <div class="panel-title">
+	    	<h2 class="media-heading">About</h2>
+    	</div>
+    </div>
+    <div class="panel-body">
+	    <p class="lead">Welcome to my pinterest rip-off. It's a website I made myself, initially by following the One Month Rails tutorial. Since then, I've made many modifications, and I will continue to do so as my skills improve.
+	    </p>
+	    <p class="lead">I'm always on the look-out for people to collaborate with; below is my Github. Feel free to contact me or just have a snoop around through any of the links below.
+	    </p>
+  	</div>
+  	<div class="panel-footer">
+  		
+  	</div>
+  </div>
+</div>
+
+<%= link_to 'Back', pins_path, class: "glyphicon glyphicon-chevron-left btn btn-primary to_pins_button_2" %>
