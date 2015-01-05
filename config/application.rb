@@ -6,6 +6,7 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+
 module Pinteresting
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
@@ -22,5 +23,9 @@ module Pinteresting
 
     # Required for Heroku
     config.assets.initialize_on_precompile = false
+
+    # For icomoon app/assets/fonts directory
+    config.assets.paths << Rails.root.join("app", "assets", "fonts")
+
   end
 end
