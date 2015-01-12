@@ -1,45 +1,26 @@
-<!-- <div class="media">
-  <div class="media-left">
-    <%= image_tag "profile-pic.jpg", class:"about-image img-responsive img-circle" %>
-  </div>
-  <div class="media-body about-text panel panel-default">
-    <div class="panel-heading">
-	    <div class="panel-title">
-	    	<h2 class="media-heading">About</h2>
-    	</div>
-    </div>
-    <div class="panel-body">
-	    <p class="lead">Welcome to my pinterest rip-off. It's a website I made myself, initially by following the One Month Rails tutorial. Since then, I've made many modifications, and I will continue to do so as my skills improve.
-	    </p>
-	    <p class="lead">I'm always on the look-out for people to collaborate with; below is my Github. Feel free to contact me or just have a snoop around through the links below.
-	    </p>
-  	</div>
-  	<div class="panel-footer", id="about-panel-footer">
-  		<span class="icon-github"></span>
-      <span class="icon-email"></span>
-      <span class="icon-wordpress"></span>
-      <span class="icon-facebook"></span>
-  	</div>
-  </div>
-</div>
-
-<%= link_to 'Back', pins_path, class: "glyphicon glyphicon-chevron-left btn btn-primary to_pins_button_2" %> -->
-
-<div class="container", id="about-page-icon-container">
+<div id="about-page">
   <div class="col-md-4">
-    <%= image_tag "profile-pic.jpg", class:"about-image img-responsive img-circle" %>
+    <%= image_tag "profile-pic.jpg", class:"img-responsive img-circle" %>
   </div>
+
   <div class="col-md-8">
     <h2 class="media-heading">About</h2>
     <p class="lead">Welcome to my pinterest rip-off. It's a website I made myself, initially by following the One Month Rails tutorial. Since then, I've made many modifications, and I will continue to do so as my skills improve.
     </p>
-    <p class="lead">I'm always on the look-out for people to collaborate with; below is my Github. Feel free to contact me or just have a snoop around through the links below.
+    <p class="lead">I'm always on the look-out for people to collaborate with; feel free to contact me or just have a snoop around through the icon-links below.
     </p>
+
     <div class="icon-container">
-      <span class="icon-github"></span>
-      <span class="icon-email"></span>
-      <span class="icon-wordpress"></span>
-      <span class="icon-facebook"></span>
+      <a href="http://www.github.com/Yorkshireman"><span class="icon-github"></span></a>
+      <a href="mailto:andrew_stelmach@hotmail.com"><span class="icon-email"></span></a>
+      <a href="http://www.rubywarriors.com"><span class="icon-wordpress"></span></a>
+      <a href="http://www.facebook.com/andrew.stelmach/"><span class="icon-facebook"></span></a>
     </div>
+
+    <div id="about-page-back-button">
+      <%= link_to 'Back', pins_path, class: "glyphicon glyphicon-chevron-left btn btn-primary to_pins_button_2"%>
+    </div>
+
   </div>
 </div>
+

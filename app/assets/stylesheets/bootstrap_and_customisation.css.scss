@@ -157,49 +157,31 @@ $gray-light:				#858585;
 	ABOUT PAGE
 ***********************************************************/
 
-.about-image {
-	max-height: 22em;
-}
+#about-page {
+	img:nth-child(1) {
+		margin-left: auto;
+		margin-right: auto;
+		max-height: 28.3em;
+	}
 
-.about-text {
-	max-width: 600px;
-}
-
-/* icon styling */
-// #about-panel-footer {
-// 	text-align: center;
-// 		span {
-// 			font-size: 2.5em;
-// 			color: #3498db;
-// 			display: inline-block;
-// 			margin: auto;
-// 		}
-
-// 		span:nth-child(2) {
-// 			margin: 0 5% 0 10%;
-// 		}
-// 		span:nth-child(3) {
-// 			margin: 0 10% 0 5%;
-// 		}
-// }
-
-#about-page-icon-container {
+	
 	span {
-		font-size: 2.5em;
+		font-size: 4em;
 		color: #3498db;
 		display: inline-block;
-		margin: auto;
 	}
 
-	span:nth-child(2) {
-		margin: 0 5% 0 10%;
+	a:nth-child(2) {
+		margin: 0 0.5% 0 1%;
 	}
-	span:nth-child(3) {
-		margin: 0 10% 0 5%;
+	a:nth-child(3) {
+		margin: 0 1% 0 0.5%;
+	}
+	
+
+	#about-page-back-button {
+		margin-top: 1.5em;
 	}
 }
 
-.icon-container {
-	text-align: center;
-}
 
