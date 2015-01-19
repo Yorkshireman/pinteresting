@@ -9,7 +9,7 @@
 
   </div>
   <div>
-    <p><%= @pin.description %></p>
+    <p class="pin-description"><%= @pin.description %></p>
     <p class="user"><span class="glyphicon glyphicon-user"></span> <strong><%= @pin.user.name if @pin.user %></strong></p>
     <div class="pin-actions">
       <% if @pin.user == current_user %>

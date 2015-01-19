@@ -10,8 +10,8 @@ $brand-color:						#3498db;
 $brand-color-darker:				#2980b9;
 $off-white:							#fcfcfc;
 
-$font-family-base:					'Comfortaa', cursive;
 $brand-font:						'Lobster', cursive;
+$font-family-base:					'Comfortaa', cursive;
 
 $body-bg:							#f7f7f7;
 
@@ -94,6 +94,10 @@ $gray-light:						#858585;
 	text-align: center;
 }
 
+.container-bottom-padding {
+	padding-bottom: 1.25em;
+}
+
 
 
 
@@ -161,6 +165,13 @@ $gray-light:						#858585;
 	font-weight: normal;
 }
 
+
+
+
+/**************************************************************
+	SHOW VIEW
+**************************************************************/
+
 .show-view-container {
 	margin-top: 0.5em;
 	margin-bottom: 0.7em;
@@ -169,22 +180,9 @@ $gray-light:						#858585;
 	border-radius: 6px;
 	display:inline-block;
 	max-width: 100%;
-}
-
-.container-bottom-padding {
-	padding-bottom: 1.25em;
-}
-
-
-
-
-
-/************************************************************
-	GLOBAL STYLES
-***********************************************************/
-
-.icon-row {
-	text-align: center;
+		.pin-description {
+			padding-top: 0.5em;
+		}
 }
 
 
@@ -224,6 +222,7 @@ $gray-light:						#858585;
 
 
 	.icon-row {
+		text-align: center;
 		padding-top: 1.5em;
 		.col-xs-6 {
 			margin-bottom: 1.5em;
