@@ -1,5 +1,5 @@
-<div class="panel panel-default show-view-container">
-  <div class="panel-heading">
+<div class="show-view-container">
+  <div>
 
     <% if @pin.image.exists?(:large) %>
     <%= image_tag @pin.image.url(:large), class: "img-responsive"%>
@@ -8,7 +8,7 @@
     <% end %>
 
   </div>
-  <div class="pin-description panel-body">
+  <div>
     <p><%= @pin.description %></p>
     <p class="user"><span class="glyphicon glyphicon-user"></span> <strong><%= @pin.user.name if @pin.user %></strong></p>
     <div class="pin-actions">
@@ -21,4 +21,5 @@
   </div>
 </div>
 
+<br>
 <%= link_to 'Back', pins_path, class: "glyphicon glyphicon-chevron-left btn btn-primary" %>

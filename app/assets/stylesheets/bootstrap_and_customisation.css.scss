@@ -8,6 +8,7 @@
 
 $brand-color:						#3498db;
 $brand-color-darker:				#2980b9;
+$off-white:							#fcfcfc;
 
 $font-family-base:					'Comfortaa', cursive;
 $brand-font:						'Lobster', cursive;
@@ -15,7 +16,7 @@ $brand-font:						'Lobster', cursive;
 $body-bg:							#f7f7f7;
 
 /* Navbar */
-$navbar-default-bg:					#fcfcfc;
+$navbar-default-bg:					$off-white;
 $navbar-default-link-color:			#7f8c8d;
 $navbar-default-link-hover-color:	$brand-color;
 
@@ -163,6 +164,10 @@ $gray-light:						#858585;
 .show-view-container {
 	margin-top: 0.5em;
 	margin-bottom: 0.7em;
+	padding: 0.75%;
+	background-color: $off-white;
+	border-radius: 6px;
+	display:inline-block;
 }
 
 .container-bottom-padding {
