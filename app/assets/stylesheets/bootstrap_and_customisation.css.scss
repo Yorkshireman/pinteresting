@@ -1,26 +1,44 @@
 @import url(http://fonts.googleapis.com/css?family=News+Cycle:400,700|Lobster|Comfortaa:400,700|Varela+Round);
 
-$body-bg:					#f7f7f7;
 
-$navbar-default-bg:			#fcfcfc;
-$navbar-default-link-color:	#7f8c8d;
-$navbar-default-link-hover-color:	#3498db;
 
-$navbar-default-brand-color: #3498db;
+/**********************************************************************
+	SASS VARIABLES
+**********************************************************************/
 
-$jumbotron-bg:				#2980b9;
-$jumbotron-color:			white;
+$brand-color:						#3498db;
+$brand-color-darker:				#2980b9;
 
-$btn-default-bg:			#3498db;
-$btn-default-color:			white;
-$btn-default-border:		#2980b9;
-$btn-primary-bg:			white;
-$btn-primary-color:			#2980b9;
+$font-family-base:					'Comfortaa', cursive;
+$brand-font:						'Lobster', cursive;
 
-$font-family-base:			'Comfortaa', cursive;
+$body-bg:							#f7f7f7;
 
-$gray-dark:					#525252;
-$gray-light:				#858585;
+/* Navbar */
+$navbar-default-bg:					#fcfcfc;
+$navbar-default-link-color:			#7f8c8d;
+$navbar-default-link-hover-color:	$brand-color;
+
+$navbar-default-brand-color: 		$brand-color;
+
+/* Jumbotron */
+$jumbotron-bg:						$brand-color-darker;
+$jumbotron-color:					white;
+
+/* Button colours */
+$btn-default-bg:					$brand-color;
+$btn-default-color:					white;
+$btn-default-border:				$brand-color-darker;
+$btn-primary-bg:					white;
+$btn-primary-color:					$brand-color-darker;
+
+/* Grays */
+$gray-dark:							#525252;
+$gray-light:						#858585;
+
+
+
+
 
 @import "bootstrap-sprockets";
 @import 'bootstrap';
@@ -81,18 +99,18 @@ $gray-light:				#858585;
 }
 
 .navbar-brand {
-	font-family: 'Lobster', cursive;
+	font-family: $brand-font;
 	font-size: 1.5em;
 }
 
 .nav {
-	font-family: 'Comfortaa', cursive;
+	font-family: $font-family-base;
 	font-size: 0.95em;
 }
 
 .jumbotron {
 	#jumbotron-title {
-		font-family: 'Lobster', cursive;
+		font-family: $brand-font;
 	}
 	position: fixed;
 	
@@ -108,7 +126,7 @@ $gray-light:				#858585;
 }
 
 .glyphicon-plus {
-	color: #3498db;
+	color: $brand-color;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
@@ -185,9 +203,9 @@ $gray-light:				#858585;
 	
 	span {						// all icons
 		font-size: 10em;
-		color: #3498db;
+		color: $brand-color;
 		&:hover {
-			color: #246A99;
+			color: $brand-color-darker;
 		}
 	}
 

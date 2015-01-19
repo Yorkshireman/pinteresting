@@ -2,6 +2,8 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+$font-family-base:	'Comfortaa', cursive;
+
 
 #pins {
   margin: 0 auto;
@@ -27,7 +29,7 @@
 }
 
 .user {
-	font-family: 'Comfortaa', cursive;
+	font-family: $font-family-base;
 	color: #858585;
 	font-size: 0.9em;
 }
@@ -41,7 +43,7 @@
 }
 
 .pin-actions {
-	font-family: 'Comfortaa', cursive;
+	font-family: $font-family-base;
 	font-size: 0.85em;
 	margin-top: 8px;
 	a {
