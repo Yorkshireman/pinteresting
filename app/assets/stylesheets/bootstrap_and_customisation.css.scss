@@ -188,6 +188,10 @@ $gray-light:						#858585;
 ***********************************************************/
 
 #about-page {
+	p {
+		font-family: 'News Cycle';
+		font-size: 1.4em;
+	}
 	img:nth-child(1) {
 		margin-left: auto;
 		margin-right: auto;
@@ -218,11 +222,6 @@ $gray-light:						#858585;
 		}
 	}
 
-	p {
-		font-size: 1.1em;
-	}
-	
-
 	#about-page-back-button {
 		margin-top: 1.5em;
 	}
@@ -239,7 +238,7 @@ $gray-light:						#858585;
 @media(min-width: 992px) {
 	#about-page {
 		.icon-row {
-			padding-top: 102px;
+			padding-top: 2.71428571429em;
 		}
 	}
 }
