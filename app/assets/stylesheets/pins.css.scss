@@ -4,6 +4,10 @@
 
 $font-family-base:	'Comfortaa', cursive;
 
+/* Grays */
+$gray-dark:							#525252;
+$gray-light:						#858585;
+
 
 #pins {
   margin: 0 auto;
@@ -24,13 +28,13 @@ $font-family-base:	'Comfortaa', cursive;
 .pin-description {
 	font-family: 'News Cycle', sans-serif;
 	font-size: 1.1em;
-	color: #525252;
+	color: $gray-dark;
 	font-weight: bold;
 }
 
 .user {
 	font-family: $font-family-base;
-	color: #858585;
+	color: $gray-light;
 	font-size: 0.9em;
 }
 
@@ -47,7 +51,7 @@ $font-family-base:	'Comfortaa', cursive;
 	font-size: 0.85em;
 	margin-top: 8px;
 	a {
-		color: #858585;
+		color: $gray-light;
 	}
 }
 
