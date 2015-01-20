@@ -215,8 +215,11 @@ $gray-light:						#858585;
 	span {						// all icons
 		font-size: 10em;
 		color: $brand-color;
+		transition-property: color;
+		transition-duration: 0.3s;
 		&:hover {
 			color: $brand-color-darker;
+			transition-duration: 0.5s;
 		}
 	}
 
@@ -226,7 +229,9 @@ $gray-light:						#858585;
 		padding-top: 1.5em;
 		.col-xs-6 {
 			margin-bottom: 1.5em;
-			a:hover { text-decoration: none; }
+			a {
+				text-decoration: none;
+			}
 		}
 	}
 
